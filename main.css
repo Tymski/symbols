@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    height: 1000px;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.separator {
+    background: rgb(232, 232, 232);
+    text-align: center;
+}
+
+.noselect{
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+}
+
+.note{
+    font-size: 30px;
+    text-align: left;
+    padding: 5px 10px;
+}
